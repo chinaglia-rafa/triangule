@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body {
+  background-color: #212121;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.color-changing {
+  animation: colorChange 7s linear infinite alternate;
+}
+
+@keyframes colorChange {
+  from {
+    color: #9c27b0;
+  }
+  to {
+    color: #2196f3;
+  }
+}
